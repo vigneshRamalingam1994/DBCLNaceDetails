@@ -6,7 +6,5 @@ import com.nace.entity.OrderDetails;
 
 @Repository
 public interface OrderDAO   extends JpaRepository<OrderDetails, Long>
-{
-	public OrderDetails findByorderid(Long empId);
- 
+{ 
 }
